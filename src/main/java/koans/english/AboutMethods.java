@@ -26,6 +26,20 @@ public class AboutMethods {
      * 
      */
     public static void computeAgeIn5And10And20YearsConsole() {
+        System.out.println("What is your age?");
+        String a=readLine();
+        int b=Integer.parseInt(a);
+        System.out.println("In 5 years from now, you will be "+(b+5)+".");
+
+        System.out.println("What is your age?");
+        String c=readLine();
+        int d=Integer.parseInt(c);
+        System.out.println("In 10 years from now, you will be "+(d+10)+".");
+
+        System.out.println("What is your age?");
+        String e=readLine();
+        int f=Integer.parseInt(e);
+        System.out.println("In 20 years from now, you will be "+(f+20)+".");
 
     }
 
@@ -116,6 +130,17 @@ public class AboutMethods {
      * 
      */
     public static void computeAgeIn5And10And20YearsConsoleWithMethod() {
+        int c=0;
+        while(c<=10);
+        {
+            System.out.println("What is your age?");
+            String a= readLine();
+            int b=Integer.parseInt(a);
+            System.out.println("In 5 years from now, you will be (b+5)");
+           c= c+5;
+        }
+           
+     
 
     }
 

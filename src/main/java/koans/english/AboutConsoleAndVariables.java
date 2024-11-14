@@ -282,7 +282,5 @@ public class AboutConsoleAndVariables {
         String e=readLine();
         int b=Integer.parseInt(e);
         System.out.println("In 5 years from now, you will be "+(b+5)+".");
-
-
     }
 }
